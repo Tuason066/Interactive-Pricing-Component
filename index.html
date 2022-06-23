@@ -9,68 +9,68 @@
   <!-- style -->
   <link rel="stylesheet" href="./style/style.css">
 
+  <!-- Coded By: Jeffrey Tuason -->
 </head>
 <body>
-  <section class="pricing">
-    <img class="bg-img" src="./images/bg-pattern.svg" alt="background image">
-    <header class="header-title">
-      <img class="header-title__circle" src="./images/pattern-circles.svg" alt="circle stroke">
-      <div class="header-title__text">
-        <h1>Simple, traffic-based pricing</h1>
-        <p>Sign-up for our 30-day trial.<span> No credit card required.</span></p>
-      </div>
-    </header>
-    <article class="card">
-
-      <div class="offers">
-        <div class="views">
-          <!-- views -->
-          <p class="views__title"><span>0</span> PAGEVIEWS</p>
-          <!-- range -->
-          <input class="range" type="range" min="1" max="100" value="60" />
-          <!-- amount -->
-          <p class="views__amount"><span>$0</span> / month</p>
+  <main>
+    <section class="pricing">
+      <img class="bg-img" src="./images/bg-pattern.svg" alt="background image">
+      <header class="header-title">
+        <img class="header-title__circle" src="./images/pattern-circles.svg" alt="circle stroke">
+        <div class="header-title__text">
+          <h1>Simple, traffic-based pricing</h1>
+          <p>Sign-up for our 30-day trial.<span> No credit card required.</span></p>
         </div>
-        <!-- billing -->
-        <div class="billing">
-          <div class="billing__monthly">
-            <span class="discount"></span>
-            <p>Monthly Billing</p>
+      </header>
+      <article class="card">
+        <div class="offers">
+          <div class="views">
+            <!-- views -->
+            <p class="views__title"><span>0</span> PAGEVIEWS</p>
+            <!-- range -->
+            <input class="range" type="range" min="1" max="100" value="60" />
+            <!-- amount -->
+            <p class="views__amount"><span>$0</span> / month</p>
           </div>
-          <!-- discount button -->
-          <div class="discount-button" role="button">
-            <div class="discount-button__slider" role="button"></div>
-          </div>
-          <div class="billing__yearly">
-            <p>Yearly Billing</p>
-            <span class="discount">-25%</span>
+          <!-- billing -->
+          <div class="billing">
+            <div class="billing__monthly">
+              <span class="discount"></span>
+              <p>Monthly Billing</p>
+            </div>
+            <!-- discount button -->
+            <div class="discount-button" role="button" aria-label="discount button">
+              <div class="discount-button__slider" role="button" aria-label="discount button slider"></div>
+            </div>
+            <div class="billing__yearly">
+              <p>Yearly Billing</p>
+              <span class="discount">-25%</span>
+            </div>
           </div>
         </div>
-      </div>
-
-      <!-- billing details -->
-      <article class="details">
-        <ul class="access">
-          <li>
-            <img src="./images/icon-check.svg" alt="check" />
-            Unlimited websites
-          </li>
-          <li>
-            <img src="./images/icon-check.svg" alt="check" />
-            100% data ownership
-          </li>
-          <li>
-            <img src="./images/icon-check.svg" alt="check" />
-            Email reports
-          </li>
-        </ul>
-        <div class="trial">
-          <button type="button" class="trial__btn primary-btn btn">Start my trial</button>
-        </div>
+        <!-- billing details -->
+        <article class="details">
+          <ul class="access">
+            <li>
+              <img src="./images/icon-check.svg" alt="check" />
+              Unlimited websites
+            </li>
+            <li>
+              <img src="./images/icon-check.svg" alt="check" />
+              100% data ownership
+            </li>
+            <li>
+              <img src="./images/icon-check.svg" alt="check" />
+              Email reports
+            </li>
+          </ul>
+          <div class="trial">
+            <button type="button" class="trial__btn primary-btn btn">Start my trial</button>
+          </div>
+        </article>
       </article>
-
-    </article>
-  </section>
+    </section>
+  </main>
 
   <script src="./script.js"></script>
 </body>
